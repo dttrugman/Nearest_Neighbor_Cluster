@@ -9,8 +9,9 @@ For example, the attached program is set up to work with the Nevada SeismoLab ca
 (which is also attached). Please start by running the eq_cluster.m with no changes (just edit the catalog directory in line 101) to make sure it works on your side.
 
 The program inputs and outputs are described in the eq_cluster.m help.
-In addition, the program creates an output file "catalog_out.txt", which is the most useful if you simply need to identify
-aftershocks/mainshocks/clusters. It has the following format:
+In addition, the program creates an output file "catalog_out.txt", which is the most useful if you simply need to identify aftershocks/mainshocks/clusters. 
+
+It has the following format:
 
 # | year | month | day | hour | min | sec | lat | lon | mag | type | P1 | P2
 
